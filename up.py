@@ -12,7 +12,7 @@ def server_up(ip, port, timeout=1):
         else:
             return True
 
-# Checks for various servers if they are up and running
+# Checks for various servers if they are up and running and prints text in green if up and red if down
 
 def proxmox():
     if server_up("10.10.0.99", 8006) == True:
