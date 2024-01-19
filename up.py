@@ -61,15 +61,11 @@ print("\nServers:\n")
 proxmox()
 casaos()
 nvr()
-
 print("\n" + "*" * 20 + "\n")
-
 print("Networking Devices:\n")
 UDM()
 officeap()
 LRap()
-
 print("\n" + "*" * 20 + "\n")
-
 print("Printers:\n")
 printers()
